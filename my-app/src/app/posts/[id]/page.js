@@ -1,7 +1,7 @@
 const posts = [
     {id:1, title:'my first post',description:'welcome to my first post'},
     {id:2, title:'my 2nd post',description:'welcome to my 2nd post'},
-    {id:3, title:'my 3rd post',description:'welcome to my 3rd post'}
+    {id:3, title:'my 3rd post',description:'welcome to my 3rd post in gkp'}
 ]
 export default async function PostDetails({params}) {
     const {id} = await params;
